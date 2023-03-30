@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html,
+body {
+	padding: 0;
+	word-break: break-word;
+}
+
+main,
+section {
+	width: 100%;
+}
+
+figure,
+article {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	border-style: none;
+}
+
+textarea {
+	overflow: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+hr {
+	box-sizing: content-box;
+	overflow: visible;
+}

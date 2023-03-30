@@ -1,0 +1,28 @@
+{
+	"name": "boilerplate",
+	"version": "1.0.0",
+	"description": "A simple template for projects in SASS/SCSS with gulp",
+	"main": "index.js",
+	"scripts": {
+		"gulp": "gulp"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AndreLuizMag/SASS-Boilerplate"
+	},
+	"keywords": [],
+	"author": {
+		"name": "André Luiz",
+		"email": "andreluizmagjr@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BeviProjects/BeviCSS/issues"
+	},
+	"homepage": "https://github.com/AndreLuizMag/SASS-Boilerplate#readme",
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-sass": "^5.1.0",
+		"sass": "^1.35.1"
+	}
+}

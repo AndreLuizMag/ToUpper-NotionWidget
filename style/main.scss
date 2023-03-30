@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import 'base/_all';
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		font-family: sans-serif;
+		font-size: clamp(48px, 6vw, 124px);
+		text-align: center;
+		color: #3b3b3b;
+	}
+}
